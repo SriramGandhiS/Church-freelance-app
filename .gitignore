@@ -43,3 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Node related
+node_modules/
+package-lock.json
+
+# Web related
+.web/
