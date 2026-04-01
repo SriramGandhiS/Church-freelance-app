@@ -1,0 +1,59 @@
+Running Gradle task 'assembleRelease'...                        
+flutter : /C:/Users/iamra/AppData/Local/Pub/Cache/ho
+sted/pub.dev/carousel_slider-4.2.1/lib/carousel_slid
+er.dart:9:1: Error: 'CarouselController' is 
+imported from both 
+'package:carousel_slider/carousel_controller.dart' 
+and 'package:flutter/src/material/carousel.dart'.
+At line:1 char:1
++ flutter build apk --release 2>&1 | Out-File 
+-FilePath "d:\SELVIN\aci_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/C:/Us 
+   ers/iamra...carousel.dart'.:String) [], RemoteE  
+  xception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import 'carousel_controller.dart';
+^^^^^^^^^^^^^^^^^^
+/C:/Users/iamra/AppData/Local/Pub/Cache/hosted/pub.d
+ev/carousel_slider-4.2.1/lib/carousel_slider.dart:48
+:15: Error: 'CarouselController' is imported from 
+both 
+'package:carousel_slider/carousel_controller.dart' 
+and 'package:flutter/src/material/carousel.dart'.
+            : CarouselController() as 
+CarouselControllerImpl,
+              ^^^^^^^^^^^^^^^^^^
+/C:/Users/iamra/AppData/Local/Pub/Cache/hosted/pub.d
+ev/carousel_slider-4.2.1/lib/carousel_slider.dart:62
+:15: Error: 'CarouselController' is imported from 
+both 
+'package:carousel_slider/carousel_controller.dart' 
+and 'package:flutter/src/material/carousel.dart'.
+            : CarouselController() as 
+CarouselControllerImpl,
+              ^^^^^^^^^^^^^^^^^^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileFlutterBuildRelease'.
+> Process 'command 
+'C:\Users\iamra\Downloads\flutter\bin\flutter.bat'' 
+finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more log 
+output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 22s
+Running Gradle task 'assembleRelease'...                           22.5s
+Gradle task assembleRelease failed with exit code 1

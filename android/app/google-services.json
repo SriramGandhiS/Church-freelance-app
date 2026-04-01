@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714322690479",
+    "project_id": "selvin-e3723",
+    "storage_bucket": "selvin-e3723.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714322690479:android:59963df59d9e8d12886f5a",
+        "android_client_info": {
+          "package_name": "com.example.aci_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABpYhD1K5II--vyclXyrHzYY8ph2YVezk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

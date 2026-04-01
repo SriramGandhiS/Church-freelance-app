@@ -1,0 +1,37 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : lib/features/admin/application_admin_dash
+board.dart:288:27: Error: Can't find ')' to match 
+'('.
+At line:1 char:1
++ flutter build apk > build_error.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: 
+(lib/features    /ad...' to match '('.:String) [], 
+RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    return GestureDetector(
+                          ^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileFlutterBuildRelease'.
+> Process 'command 'C:\Users\iamra\Downloads\flutte
+r\bin\flutter.bat'' finished with non-zero exit 
+value 1
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 24s
+Running Gradle task 'assembleRelease'...                           25.2s
+Gradle task assembleRelease failed with exit code 1

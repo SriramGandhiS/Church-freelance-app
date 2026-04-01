@@ -1,0 +1,32 @@
+﻿  error - Undefined name 'ProviderFor' used as an annotation - lib\features\auth\auth_controller.g.dart:12:1 - undefined_annotation
+  error - Undefined name 'AuthController' - lib\features\auth\auth_controller.g.dart:12:14 - undefined_identifier
+  error - The name 'AutoDisposeAsyncNotifierProvider' isn't a class - lib\features\auth\auth_controller.g.dart:14:5 - creation_with_non_type
+  error - The name 'AuthController' isn't a type, so it can't be used as a type argument - lib\features\auth\auth_controller.g.dart:14:38 - non_type_as_type_argument
+  error - Undefined name 'AuthController' - lib\features\auth\auth_controller.g.dart:15:3 - undefined_identifier
+  error - The getter 'new' isn't defined for the type 'InvalidType' - lib\features\auth\auth_controller.g.dart:15:18 - undefined_getter
+  error - Undefined class 'AutoDisposeAsyncNotifier' - lib\features\auth\auth_controller.g.dart:24:28 - undefined_class
+  error - Undefined name 'SharePlus' - lib\features\donations\donation_qr_screen.dart:50:28 - undefined_identifier
+  error - The method 'ShareParams' isn't defined for the type 'DonationQRScreen' - lib\features\donations\donation_qr_screen.dart:50:53 - undefined_method
+  error - Undefined name 'SharePlus' - lib\features\gallery\photo_viewer_screen.dart:13:86 - undefined_identifier
+  error - The method 'ShareParams' isn't defined for the type 'PhotoViewerScreen' - lib\features\gallery\photo_viewer_screen.dart:13:111 - undefined_method
+  error - The name 'CarouselController' is defined in the libraries 'package:carousel_slider/carousel_controller.dart (via package:carousel_slider/carousel_slider.dart)' and 'package:flutter/src/material/carousel.dart (via package:flutter/material.dart)' - lib\features\home\widgets\banner_carousel.dart:21:9 - ambiguous_import
+  error - 'CarouselController' isn't a function - lib\features\home\widgets\banner_carousel.dart:21:42 - invocation_of_non_function
+  error - The name 'CarouselController' is defined in the libraries 'package:carousel_slider/carousel_controller.dart (via package:carousel_slider/carousel_slider.dart)' and 'package:flutter/src/material/carousel.dart (via package:flutter/material.dart)' - lib\features\home\widgets\banner_carousel.dart:21:42 - ambiguous_import
+  error - The getter 'accent' isn't defined for the type 'AppColors' - lib\features\home\widgets\home_sections.dart:72:101 - undefined_getter
+  error - The getter 'accentLight' isn't defined for the type 'AppColors' - lib\features\home\widgets\home_sections.dart:84:82 - undefined_getter
+  error - Arguments of a constant creation must be constant expressions - lib\features\members\member_detail_screen.dart:41:48 - const_with_non_constant_argument
+  error - The getter 'folded_hands_rounded' isn't defined for the type 'Icons' - lib\features\members\member_detail_screen.dart:41:54 - undefined_getter
+  error - Arguments of a constant creation must be constant expressions - lib\features\onboarding\onboarding_screen.dart:20:31 - const_with_non_constant_argument
+  error - The getter 'folded_hands_rounded' isn't defined for the type 'Icons' - lib\features\onboarding\onboarding_screen.dart:20:37 - undefined_getter
+  error - The getter 'folded_hands_rounded' isn't defined for the type 'Icons' - lib\features\support\support_screen.dart:14:30 - undefined_getter
+  error - The getter 'folded_hands_rounded' isn't defined for the type 'Icons' - lib\shared\widgets\app_drawer.dart:32:30 - undefined_getter
+  error - The getter 'folded_hands_rounded' isn't defined for the type 'Icons' - lib\shared\widgets\bottom_nav_bar.dart:60:38 - undefined_getter
+  error - Invalid constant value - lib\shared\widgets\empty_state_widget.dart:32:24 - invalid_constant
+  error - The getter 'surfaceTint' isn't defined for the type 'AppColors' - lib\shared\widgets\empty_state_widget.dart:32:34 - undefined_getter
+  error - The getter 'surfaceTint' isn't defined for the type 'AppColors' - lib\shared\widgets\gallery_item.dart:24:69 - undefined_getter
+  error - The getter 'surfaceTint' isn't defined for the type 'AppColors' - lib\shared\widgets\gallery_item.dart:26:30 - undefined_getter
+  error - The getter 'surfaceTint' isn't defined for the type 'AppColors' - lib\shared\widgets\gallery_item.dart:68:81 - undefined_getter
+  error - The getter 'surfaceTint' isn't defined for the type 'AppColors' - lib\shared\widgets\gallery_item.dart:72:40 - undefined_getter
+  error - Target of URI doesn't exist: '../constants/app_colors.dart' - lib\shared\widgets\watermark_scaffold.dart:2:8 - uri_does_not_exist
+  error - Undefined name 'AppColors' - lib\shared\widgets\watermark_scaffold.dart:23:24 - undefined_identifier
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
